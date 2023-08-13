@@ -1,0 +1,44 @@
+
+select {
+    min-width: 18vw;
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    font-weight: 700;
+    color: #5c5c5c;
+    
+  }
+select option{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+  
+  select:focus,
+  select:hover {
+    outline: none;
+    border: 2px solid #FF001F;
+  }
+  .selector:focus,
+  .selector:hover {
+    outline: none;
+    border: 2px solid #FF001F;
+  }
+  .selector-option__checkbox:before{
+    background-color: #000000;
+  }
+  .selector label {
+    display: block;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: #5c5c5c;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  
+  .react-multi-select-option:hover {
+    border-color: #FF001F;
+  }
+  
+  
