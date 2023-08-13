@@ -1,6 +1,6 @@
 <h2>About the project</h2>
 <h3>Built with:</h3>
-» React JS
+» React JS <br>
 » Css
 <h3>Hosting:</h3> 
 » Firebase
