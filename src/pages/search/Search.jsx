@@ -40,8 +40,8 @@ function Search(){
                 <div className="search_header">
                     <h5>{`search ${items.length > 1 ? "results" : 'result'} of '${query}'`}</h5>
                     <div className="switchTabs">
-                        <button style={{"background":`${endpoint === 'tv' ? '#bdbdbd' : '#fe5555'}`}} onClick={()=>(setEndpoint('movie'))}>movie</button>
-                        <button style={{"background":`${endpoint === 'tv' ? '#fe5555' : '#bdbdbd'}`}} onClick={()=>(setEndpoint('tv'))}>tv</button>
+                        <button style={{"background":`${endpoint === 'tv' ? '#bdbdbd' : '#FF001F'}`}} onClick={()=>(setEndpoint('movie'))}>movie</button>
+                        <button style={{"background":`${endpoint === 'tv' ? '#FF001F' : '#bdbdbd'}`}} onClick={()=>(setEndpoint('tv'))}>tv</button>
                     </div>
                 </div>
                {items.length > 0 
