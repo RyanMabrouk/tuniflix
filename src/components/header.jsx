@@ -12,7 +12,7 @@ function Header(){
                     <img src={logo} onClick={()=>(navigate('/'))} alt="" />
                 </div>
                 <nav >
-                   <a href="/explore/movie" onClick={()=>(navigate(`explore/movie`))}>movie</a>
+                   <a href="/explore/movie" onClick={()=>(navigate(`/explore/movie`))}>movie</a>
                    <a href="/explore/tv" onClick={()=>(navigate('/explore/tv'))}>tv</a>
                 </nav>
             </div>
